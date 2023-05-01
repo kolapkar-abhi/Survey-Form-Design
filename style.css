@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      180deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg)
+      no-repeat center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+div {
+  text-align: center;
+  margin: 0 0 35px 0;
+}
+
+#title {
+  font-size: 38px;
+  margin: 35px 0 0 0;
+  color: rgb(233, 233, 233);
+}
+
+#description {
+  font-size: 22px;
+  margin: 15px 0 0 0;
+  color: rgba(255, 255, 255, 0.733);
+  font-style: italic;
+}
+
+/* survey-form */
+#survey-form {
+  width: 60%;
+  max-width: 700px;
+  min-width: 300px;
+  margin: 0 auto 10px;
+  background-color: rgb(48, 48, 100);
+  color: white;
+  font-size: 20px;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 40px;
+  font-size: 20px;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  min-height: 1rem;
+  font-size: 18px;
+  border: 2px solid #ced4da;
+  outline: none;
+  border-radius: 5px;
+  padding: 0.3rem;
+  color: #495057;
+  background-color: white;
+}
+
+.inline {
+  display: inline-block;
+  width: inherit;
+  min-height: 1.1rem;
+  min-width: 1.1rem;
+  margin: 0 1rem 0.3rem 0;
+  vertical-align: middle;
+}
+
+#select-label {
+  margin: 15px 0 10px;
+}
+
+span {
+  font-size: 17px;
+  color: rgb(223, 223, 223);
+}
+
+#submit {
+  padding: 10px 0;
+  background-color: rgba(140, 238, 140, 0.705);
+  border-color: rgba(140, 238, 140, 0.705);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
